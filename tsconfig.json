@@ -5,5 +5,8 @@
         "strict": true,
         "jsx": "react",
         "jsxFactory": "h"
-    }
+    },
+    "include": [
+        "node_modules/@types"
+    ]
 }

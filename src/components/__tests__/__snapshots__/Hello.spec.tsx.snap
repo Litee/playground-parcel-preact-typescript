@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hello component should process click 1`] = `
+preact-render-spy (1 nodes)
+-------
+<a
+  class="greeting"
+  onClick={[Function anonymous]}
+  href="#"
+>
+  Hello, John Doe! You clicked me 1 times.
+</a>
+
+`;
+
+exports[`Hello component should render correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<a
+  class="greeting"
+  onClick={[Function anonymous]}
+  href="#"
+>
+  Hello, John Doe! You clicked me 0 times.
+</a>
+
+`;
